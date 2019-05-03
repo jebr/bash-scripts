@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#Updaten van het systeem
+
+HOSTNAME=$(hostname)
+
+echo $HOSTNAME
+
+exit
