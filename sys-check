@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Systeem status controleren
+
+# Controleren van het geheugen van de folder ~/
+echo "Memory: "
+/usr/bin/free -h ~/
+echo "Disk Usage: "
+/usr/bin/df -h
+echo "Uptime: "
+/usr/bin/uptime
+
+exit
+
