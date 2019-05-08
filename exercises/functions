@@ -3,7 +3,15 @@
 #Aanmaken van de functie
 function hello(){
 	echo "Hello world!"
+
+	#Aanroepen andere functie
+	time
 }
+
+function time(){
+	echo "It's $(date +%r)"
+}
+
 
 #Aanroepen van de functie
 hello
