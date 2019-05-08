@@ -1,9 +1,0 @@
-#!/bin/bash
-
-#Aanmaken van de functie
-function hello(){
-	echo "Hello world!"
-}
-
-#Aanroepen van de functie
-hello
