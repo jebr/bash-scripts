@@ -25,6 +25,7 @@ COMMENT
 
 
 #Execute
+case $1
 if [ "$1" == "--help" ]
 then
   clear
